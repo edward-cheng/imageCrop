@@ -15,6 +15,7 @@
 		2E28AE91218AF575003D381E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28AE90218AF575003D381E /* main.m */; };
 		2E28AE9A218AF842003D381E /* EdwImageCropVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28AE99218AF842003D381E /* EdwImageCropVC.m */; };
 		2E28AEA1218AF895003D381E /* UIView+EdwFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E28AE9F218AF895003D381E /* UIView+EdwFrame.m */; };
+		2E2FE60C219022AD000C7AED /* tupian.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2E2FE60B219022AD000C7AED /* tupian.PNG */; };
 		A48D66BE633CCC87C8192F1A /* libPods-imageCrop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A425F33B201C81C159122499 /* libPods-imageCrop.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		2E28AE99218AF842003D381E /* EdwImageCropVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdwImageCropVC.m; sourceTree = "<group>"; };
 		2E28AE9E218AF895003D381E /* UIView+EdwFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EdwFrame.h"; sourceTree = "<group>"; };
 		2E28AE9F218AF895003D381E /* UIView+EdwFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EdwFrame.m"; sourceTree = "<group>"; };
+		2E2FE60B219022AD000C7AED /* tupian.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tupian.PNG; sourceTree = "<group>"; };
 		5F53C5D1D35283160C068953 /* Pods-imageCrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageCrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imageCrop/Pods-imageCrop.debug.xcconfig"; sourceTree = "<group>"; };
 		A425F33B201C81C159122499 /* libPods-imageCrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imageCrop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				2E28AE8F218AF575003D381E /* Info.plist */,
 				2E28AE90218AF575003D381E /* main.m */,
 				2E28AE97218AF794003D381E /* PrefixHeader.pch */,
+				2E2FE60B219022AD000C7AED /* tupian.PNG */,
 			);
 			path = imageCrop;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				2E28AE8E218AF575003D381E /* LaunchScreen.storyboard in Resources */,
 				2E28AE8B218AF575003D381E /* Assets.xcassets in Resources */,
+				2E2FE60C219022AD000C7AED /* tupian.PNG in Resources */,
 				2E28AE89218AF574003D381E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
