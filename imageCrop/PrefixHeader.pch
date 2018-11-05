@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  imageCrop
+//
+//  Created by EdwardCheng on 2018/11/1.
+//  Copyright © 2018年 EdwardCheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import "UIView+EdwFrame.h"
+
+#define kEdwIphoneX ([UIScreen mainScreen].bounds.size.height == 812.0)
+
+//获取屏幕宽度
+#define kEdwScreenWidth  [UIScreen mainScreen].bounds.size.width
+//获取屏幕高度
+#define kEdwScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//状态栏高度
+#define kEdwStatuBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height > 0 ? [[UIApplication sharedApplication] statusBarFrame].size.height : (kEdwIphoneX ? 44 : 20)
+
+//导航栏高度
+#define kEdwNavBarHeight 44.0
+//状态栏导航栏总高度
+#define kEdwNavBarStatuBarHeight ((kEdwStatuBarHeight)+44.0)
+
+#endif /* PrefixHeader_pch */
